@@ -1,0 +1,16 @@
+1. Não. Apenas o processo filho acessa o sleep(5). O pai acessa o filho com wait
+2. O comando imprime o processo do pai. Já que a condição de if leva a isso
+3. Retorna o processo do pai. Foi colocado o return 50 dentro do else(retorno do filho). Logo, ve-se que o processo filho mandou um status para o processo pai.
+
+4. a) O x pertence a ambos os processos. Já quem um é a cópia do outro
+    b) O comando x++ altera o valor,  
+
+5. Quando faz execve, muda o projeto e se torna o programa desejado. Mas os ids continuam
+6. Porque ele conta com o tempo de transformação após o fork. Por isso o tempo é alterado. tempo antes= 0.00035
+tempo depois= 0.81799
+
+7. 
+
+
+
+
